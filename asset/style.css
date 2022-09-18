@@ -69,6 +69,7 @@ header {
     border-color: whitesmoke;
     padding: 3px;
     display: flex;
+    color: rgb(243, 83, 8);
     }
 
 .navbar-list1 a {
@@ -172,4 +173,41 @@ header {
 .fotoextra{ 
     width: 60%;
     height: 400px;
+}
+
+@media (max-width: 576px) {
+
+    #hero {
+       flex-direction: column;
+       }
+    .hero-ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+    .hero-ul a {
+       font-size: 10px;
+    }
+
+    .hero-info h1 {
+        font-size: 25px;
+    }    
+    .hero-info p {
+        font-size: 15px;
+        max-width: 300px;
+    }  
+    .hero-img {
+        width: 20%;
+    }
+    .hero-inf2 {
+        font-size: 10px;
+        flex-direction: column;
+        max-width: 250px;
+    }
+    .fotoextra{ 
+        width: 20%;
+        height: 200px;
+    }
+
+    
 }
