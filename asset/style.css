@@ -209,3 +209,37 @@ header {
         height: 200px;
     } 
 }
+@media (max-width: 992px) {
+
+    #hero {
+       flex-direction: column;
+       }
+    .hero-ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .hero-ul a {
+       font-size: 20px;
+    }
+
+    .hero-info h1 {
+        font-size: 35px;
+    }    
+    .hero-info p {
+        font-size: 20px;
+        max-width: 400px;
+    }  
+    .hero-img {
+        width: 40%;
+    }
+    .hero-inf2 {
+        font-size: 20px;
+        flex-direction: column;
+        max-width: 450px;
+    }
+    .fotoextra{ 
+        width: 40%;
+        height: 400px;
+    } 
+}
