@@ -17,17 +17,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.img-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
 /* header */
 
 header {
-    background: rgb(11, 8, 8);
+    background: rgb(0, 0, 0);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
-    padding: 0px 35px 0px 35px;
-    position: fixed;
+    height: 100px;
+    padding: 0px 35px;
+    position: sticky;
     top: 0;
 }
 
@@ -52,36 +60,30 @@ header {
 }
 
 .navbar-list2 {
-    gap: 30px;
-}
-
-.navbar-list1 a {
-    color: white;
-    font-size: 18px;
-    border: 1px solid;
-    padding: 3px;
-    border-radius: 10px;
-    background: gray;
-    font-weight: 100;
+    gap: 10px;
 }
 
 .navbar-list2 a {
-    color: rgba(226, 234, 118, 0.629);
-    font-size: 18px;
     border: 1px solid;
-    padding: 5px;
-    border-radius: 20px;
-    margin-top: 3px;
-    font-weight: 600;
-    font-size: 20px;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    padding: 3px;
+    display: flex;
+    }
 
-
-/* Main */
-
-.main { 
+.navbar-list1 a {
+    color: white;
+    font-size: 14px;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.main {
     background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,12 +91,85 @@ header {
     color: white;
     width: 100%;
 }
-    
+
+#hero {
+    margin-top: 50px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+
+.hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 
-/*hero*/    
-
-#hero  {    
+.hero-info h1 {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
 
 }
 
+.hero-info p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: 400;
+    padding: 20px;
+    width: 80%;
+}
+
+.hero-ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero-ul a {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(59, 57, 57);
+    color: azure;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 150px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-img {
+    width: 40%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-inf2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+}
+
+.fotoextra{ 
+    width: 60%;
+    height: 400px;
+}
