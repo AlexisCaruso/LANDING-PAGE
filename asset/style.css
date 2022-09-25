@@ -28,19 +28,21 @@
 /* header */
 
 header {
-    background: rgb(0, 0, 0);
+    background: black;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     padding: 0px 35px;
-    position: sticky;
+    position: fixed; 
     top: 0;
 }
 
 .logo {
     height: 100%;
+    width: 10%;
+    margin-left: 15px;
 }
 
 .navbar,
@@ -64,23 +66,19 @@ header {
 }
 
 .navbar-list2 a {
-    border: 1px solid;
-    border-radius: 7px;
-    border-color: whitesmoke;
     padding: 3px;
     display: flex;
-    color: rgb(243, 83, 8);
+    color: rgb(239, 121, 30);
+    font-size: 18px;
     }
 
 .navbar-list1 a {
     color: white;
-    font-size: 14px;
-    border: 1px solid;
+    font-size: 18px;
     padding: 3px;
-    border-radius: 7px;
     font-weight: 400;
-    font-size: 15px;
-}
+ }
+
 .main {
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -94,7 +92,7 @@ header {
 }
 
 #hero {
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 70px 0;
     max-width: 1200px;
     display: flex;
@@ -161,6 +159,14 @@ header {
     gap: 20px;
 }
 
+.hero-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+}
+
 .hero-inf2 {
     display: flex;
     justify-content: center;
@@ -173,73 +179,4 @@ header {
 .fotoextra{ 
     width: 60%;
     height: 400px;
-}
-
-@media (max-width: 576px) {
-
-    #hero {
-       flex-direction: column;
-       }
-    .hero-ul {
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: 10px;
-    }
-    .hero-ul a {
-       font-size: 10px;
-    }
-
-    .hero-info h1 {
-        font-size: 25px;
-    }    
-    .hero-info p {
-        font-size: 15px;
-        max-width: 300px;
-    }  
-    .hero-img {
-        width: 20%;
-    }
-    .hero-inf2 {
-        font-size: 10px;
-        flex-direction: column;
-        max-width: 250px;
-    }
-    .fotoextra{ 
-        width: 20%;
-        height: 200px;
-    } 
-}
-@media (max-width: 992px) {
-
-    #hero {
-       flex-direction: column;
-       }
-    .hero-ul {
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: 20px;
-    }
-    .hero-ul a {
-       font-size: 20px;
-    }
-
-    .hero-info h1 {
-        font-size: 35px;
-    }    
-    .hero-info p {
-        font-size: 20px;
-        max-width: 400px;
-    }  
-    .hero-img {
-        width: 40%;
-    }
-    .hero-inf2 {
-        font-size: 20px;
-        flex-direction: column;
-        max-width: 450px;
-    }
-    .fotoextra{ 
-        width: 40%;
-        height: 400px;
-    } 
 }
