@@ -39,30 +39,60 @@
         height: 200px;
     } 
 }
+
+
 @media (max-width: 992px) {
 
+    header {
+        justify-content: start;
+        gap: 20px;
+    }
+
+    .logo {
+        margin-left: unset;
+    }
+
+    .navbar {
+        gap: 20px;
+        position: relative;
+        top: 10px;
+        left: 5%;
+        right: 5%;
+        width: 95%;
+        justify-content: flex-start;
+    }
+    .navbar-list1 a {
+        font-size: 0.8rem;
+        justify-content: center;
+    }
+
+    .navbar-list2 a {
+        font-size: 1.2rem;
+        justify-content: end;
+    }
      
     #hero {
        flex-direction: column;
+       width: 100%;
        }
 
     .hero-ul {
         flex-direction: column;
         flex-wrap: wrap;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .hero-ul a {
-       font-size: 20px;
+       font-size: 15px;
     }
 
     .hero-info h1 {
-        font-size: 35px;
+        font-size: 20px;
     }    
 
     .hero-info p {
-        font-size: 20px;
-        max-width: 400px;
+        font-size: 15px;
+        max-width: 600px;
     }  
 
     .hero-img {
@@ -70,13 +100,83 @@
     }
 
     .hero-inf2 {
-        font-size: 20px;
+        font-size: 15px;
         flex-direction: column;
         max-width: 450px;
     }
 
     .fotoextra{ 
-        width: 40%;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     } 
+
+    #card2 {
+        max-width: 900px;
+    }  
+}
+
+@media (max-width: 576px) {
+
+    .navbar-list1 a {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+    }
+
+    .card-titulo h3 {
+        font-size: 20px;
+    }
+
+    #card2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding: 20px;
+        width: 80%;
+    }  
+
+    #contacto {
+        max-width: 500px;
+        padding: 10px 10px;
+   }
+
+   .card-titulo h2 {
+    font-size: 20px;
+   }
+
+   .card-titulo p {
+    font-size: 15px;
+   }
+
+   .card-1 {
+    height: 300px;
+    width: 500px;
+   }
+
+    .card-2 {
+    height: 300px;
+    width: 500px;
+    }
+
+    .card-3 {
+    height: 300px;
+    width: 500px;
+    }
+
+   .contacto-info, .contacto-info img {
+    flex-direction: column;
+   }
+
+   .maps {
+    display: none;
+   }
 }

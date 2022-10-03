@@ -86,6 +86,7 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
+    max-width: 1400px;
     width: 100%;
     background: #C02425;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #F0CB35, #e65a5a);  /* Chrome 10-25, Safari 5.1-6 */
@@ -118,6 +119,7 @@ header {
     font-size: 45px;
     display: flex;
     align-items: center;
+    text-align: center;
 
 }
 
@@ -159,7 +161,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
 }
 
 .hero-2 {
@@ -223,24 +225,21 @@ gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-items: center;
-    padding: 5px 15px;
     gap: 40px;
 }
 
 .card-1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap:20px;
     flex-direction: column;
-    border-radius: 10px;
     height: 500px;
     width: 700px;
     text-align: center;
 }
 
 .card-1 h3 {
-    padding: 15px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,16 +247,14 @@ gap: 30px;
 }
 
 .card-1 img {
-    margin-left: 130px;
-    padding: 2px;
-    width: 100px;
-    height: 100px;
-    
+    height: 75px;
+    width: 75px;
 }
 
 .card-2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap:20px;
     flex-direction: column;
     border-radius: 10px;
@@ -267,7 +264,6 @@ gap: 30px;
 }
 
 .card-2 h3 {
-    padding: 15px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -276,10 +272,8 @@ gap: 30px;
 }
 
 .card-2 img {
-    margin-left: 130px;
-    width: 100px;
-    height: 100px;
-    padding: 0px;
+    height: 75px;
+    width: 75px;
 }
 
 .card-3 {
@@ -291,10 +285,10 @@ gap: 30px;
     height: 500px;
     width: 700px;
     text-align: center;
+    align-items: center;
 }
 
 .card-3 h3 {
-    padding: 15px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -303,10 +297,8 @@ gap: 30px;
 }
 
 .card-3 img {
-    margin-left: 130px;
-    padding: 2px;
-    width: 100px;
-    height: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 #contacto {
@@ -314,7 +306,6 @@ gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-items: center;
     padding: 5px 15px;
     gap: 40px;
     flex-direction: column;
@@ -328,7 +319,7 @@ gap: 30px;
     color: #000000;
 }
 
-.contacto-info{
+.contacto-info {
     color: #000000;
     font-weight: 600;
     padding: 30px;
@@ -354,12 +345,12 @@ gap: 30px;
     display: flex;
     justify-content: center;
     justify-items: center;
+    align-items: center;
 }
 
 
 
 footer { 
-    padding: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
