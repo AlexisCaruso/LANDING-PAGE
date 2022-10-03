@@ -1,6 +1,6 @@
 
 
-@media (max-width: 576px) {
+/*@media (max-width: 576px) {
 
     #hero {
        flex-direction: column;
@@ -38,7 +38,7 @@
         width: 20%;
         height: 200px;
     } 
-}
+}*/
 
 
 @media (max-width: 992px) {
@@ -117,6 +117,10 @@
 
 @media (max-width: 576px) {
 
+    .navbar-list2 a {
+        font-size: 10px;
+    }
+        
     .navbar-list1 a {
         display: none;
     }
@@ -125,7 +129,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 150px;
+        width: 100px;
+        height: 70px;
     }
 
     .card-titulo h3 {
@@ -140,7 +145,6 @@
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        padding: 20px;
         width: 80%;
     }  
 
@@ -179,4 +183,23 @@
    .maps {
     display: none;
    }
+
+   .navbar {
+    gap: 0Px;
+   }
+
+   .navbar-list2 a {
+    font-size: 0.8rem;
+    justify-content: start;
+    }
+
+    #contacto h2 {
+        letter-spacing: 5px;
+        padding: 50px;
+        font-size: 20px;
+    }
+
+    .contacto-info {
+        padding: 10px;
+    }
 }

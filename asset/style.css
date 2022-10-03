@@ -86,7 +86,6 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
-    max-width: 1400px;
     width: 100%;
     background: #C02425;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #F0CB35, #e65a5a);  /* Chrome 10-25, Safari 5.1-6 */
@@ -212,7 +211,7 @@ gap: 30px;
     gap: 20px;
     font-weight: 400;
     padding: 20px;
-    width: 80%;
+    width: 50%;
 }
 
 .card-titulo h2 {
@@ -221,11 +220,11 @@ gap: 30px;
 }
 
 #card2 {
-    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
+    
 }
 
 .card-1 {
@@ -234,9 +233,14 @@ gap: 30px;
     align-items: center;
     gap:20px;
     flex-direction: column;
-    height: 500px;
-    width: 700px;
     text-align: center;
+}
+
+.card-1 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
 }
 
 .card-1 h3 {
@@ -258,11 +262,12 @@ gap: 30px;
     gap:20px;
     flex-direction: column;
     border-radius: 10px;
-    height: 500px;
-    width: 700px;
     text-align: center;
 }
 
+.card-2 p {
+    width: 50%;
+}
 .card-2 h3 {
     display: flex;
     align-items: center;
@@ -282,10 +287,12 @@ gap: 30px;
     gap:20px;
     flex-direction: column;
     border-radius: 10px;
-    height: 500px;
-    width: 700px;
     text-align: center;
     align-items: center;
+}
+
+.card-3 p {
+    width: 50%;
 }
 
 .card-3 h3 {
